@@ -1,0 +1,342 @@
+:root
+{
+    --color-white: #FFF;
+    --color-vibrant-green: #36B37E;
+    --color-bright-gray: #F9FBFE;
+    --color-brigther-gray: #F9FBFE; 
+    --color-navy-blue: #183B56;
+    --color-vibrant-dark-blue: #1565D8;
+    --color-steel-blue: #5A7184;
+    --color-gray: #B3BAC5;
+    --color-dotted-line: #9DAAB6;
+    --color-light-green: rgb(229, 247, 239); /* cor não segue o padrao do figma, pois a cor puxa para o branco*/
+
+    /*Opacidade*/
+    --color-steel-blue-opacity10: rgba(179, 186, 197, 0.1);
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.mainGrid
+{
+    margin: 0px;
+    background-color: var(--color-light-green);
+
+}
+
+/* logo*/
+.soonImg img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0px;
+}
+
+
+.meio .phrase h1{
+    font-family: "Inter" , sans-serif;
+    color: #183B56;
+    font-weight: 300 ;
+
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+.card{
+    display: grid;
+    text-align: center;
+    background-color: rgb(206, 175, 175);
+    color: #5A7184;
+    
+    width: 280px;
+    height: 132px;
+    top: 206px;
+    left: 20px;
+
+   
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p{
+    font-family: "Open Sans";
+    height: 28px;
+    width: 127px;
+
+
+}
+
+
+.card button{
+    font-family: Open Sans;
+    background-color: #36B37E;
+    color: white;
+
+    height: 46px;
+    width: 248px;
+    border: 0px;
+    border-radius: 8px;
+
+    font-weight: 700;
+    font-size: 16px;
+
+
+}
+
+.meio .imagemTop img{
+    width: 280px;
+    height: 180px;
+
+    margin: 18px 0 18px;
+
+}
+
+
+
+.masterBoard
+{
+    padding: 0 20px;
+    background-color: var(--color-white);
+
+    width: 320px;
+    justify-self: center;
+}
+
+#teamSuggestions
+{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+
+    padding: 64px 0 56px;
+}
+#teamSuggestions h2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    color: var(--color-navy-blue);
+
+    margin: 0;
+
+    width: 280px;
+    height: 108px;
+}
+
+#teamSuggestions .cardSuggestions
+{
+    width: 280px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 12px 0;
+}
+
+#teamSuggestions .cardSuggestions h3
+{
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+    color: var(--color-navy-blue);
+
+    margin-left: 20px;
+}
+
+#teamSuggestions .cardSuggestions p
+{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+    color: var(--color-steel-blue);
+    margin-left: 20px;
+
+    width: 240px;
+}
+
+#teamSuggestions img
+{
+    width: 280px;
+    height: 180px;
+
+    margin: 18px 0 18px;
+}
+
+#teamSuggestions #beOrganized
+{
+    
+    background-color: var(--color-steel-blue-opacity10);
+    border-left: 2px solid var(--color-steel-blue);
+
+    margin: 18px 0;
+}
+
+#saveTime
+{
+    padding: 56px 20px 58px;
+    background-color: var(--color-brigther-gray);
+
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+}
+
+#saveTime h2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    color: var(--color-navy-blue);
+
+    width: 284px;
+    height: 72px;
+
+    margin: 0;
+}
+
+#saveTime p
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: var(--color-steel-blue);
+
+    width: 280px;
+    height: 112px;
+
+    margin: 24px 0;
+}
+
+#saveTime .btnLearn
+{
+    display: flex;
+
+    justify-content: center;
+    margin-bottom: 34px;
+
+    text-decoration: none;
+
+}
+
+#saveTime .btnLearn button
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    
+    background-color: transparent;
+    border: none;
+    color: var(--color-vibrant-dark-blue);
+}
+
+#saveTime .btnLearn button img
+{
+    margin-left: x;
+}
+
+#saveTime .woman
+{
+    width: 280px;
+    height: 192px;
+}
+
+#saveTime #dotted.line
+{
+    margin: 40px 0 37px;
+}
+
+#saveTime .quoteAndries p 
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    width: 280px;
+    height: 72px;
+
+    margin: 0;
+
+    color: var(--color-steel-blue);
+}
+
+#saveTime .quoteAndries h3
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+    color: var(--color-navy-blue);
+
+    margin: 20px 0 7px;
+}
+
+#saveTime .quoteAndries h4
+{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: var(--color-steel-blue);
+
+    margin: 0 0 20px;
+}
+
+#saveTime .quoteAndries img
+{
+    width: 102.85px;
+    height: 34.1px;
+}
+
+.cardFooter ul{
+    list-style-type: none;
+}
+.cardFooter ul li a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-navy-blue);
+    text-decoration: none;
+}
+.cardFooter ul{
+    list-style-type: none;
+    margin: 0px;
+    p
+}

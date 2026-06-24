@@ -1,0 +1,12 @@
+:root
+{
+    --color-bright-gray: #F9FBFE;
+    --color-navy-blue: background: #183B56;
+
+
+}
+
+*
+{
+    box-sizing: border-box;
+}

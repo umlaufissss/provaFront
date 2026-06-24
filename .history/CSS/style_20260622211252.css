@@ -1,0 +1,551 @@
+:root
+{
+    --color-white: #FFF;
+    --color-vibrant-green: #36B37E;
+    --color-bright-gray: #F9FBFE;
+    --color-brigther-gray: #F9FBFE; 
+    --color-navy-blue: #183B56;
+    --color-vibrant-dark-blue: #1565D8;
+    --color-steel-blue: #5A7184;
+    --color-gray: #B3BAC5;
+    --color-dotted-line: #9DAAB6;
+    --color-light-green: rgb(229, 247, 239); /* cor não segue o padrao do figma, pois a cor puxa para o branco*/
+    --color-arrow-green: #36B37E; 
+    
+    /*Opacidade*/
+    --color-steel-blue-opacity10: rgba(179, 186, 197, 0.1);
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.gridHeader
+{
+    margin: 0px;
+    background-color: var(--color-light-green);
+   
+}
+
+
+.topUp{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom:6px;
+}
+
+/* logo*/
+.soonImg img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0px;
+  padding: 50px;
+}
+
+
+.quite .phrase h1{
+    font-family: "Inter" , sans-serif;
+    color: #183B56;
+    font-weight: 300 ;
+
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+
+
+}
+
+.card
+{
+    background-color: white;
+    color: #5A7184;
+    
+    width: 280px;
+    height: 132px;
+
+
+    display: flex;
+    flex-direction:column;
+   
+    border-radius: 8px;
+
+    justify-self: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.card p{
+    font-family: "Open Sans";
+    height: 28px;
+    width: 127px;  
+}
+
+
+.card .button-submit{
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--color-vibrant-green);
+    color: white;
+
+   
+    border-radius: 8px;
+
+    font-weight: 700;
+    font-size: 16px;
+    
+    
+}
+
+
+.meio .imageTop img{
+    width: 280px;
+    height: 180px;
+    
+
+}
+
+.arrowGreen img{
+    display: flex; 
+    justify-content: center;
+    
+    width: 56px;
+    height: 56px;
+    
+    
+}
+
+
+
+
+
+.masterBoard
+{
+    padding:  20px;
+    background-color: var(--color-white);
+
+    width: 320px;
+    justify-self: center;
+}
+
+#teamSuggestions
+{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+
+    padding: 64px 0 56px;
+}
+#teamSuggestions h2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    color: var(--color-navy-blue);
+
+    margin: 0;
+
+    width: 280px;
+    height: 108px;
+}
+
+#teamSuggestions .cardSuggestions
+{
+    width: 280px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 12px 0;
+}
+
+#teamSuggestions .cardSuggestions h3
+{
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+    color: var(--color-navy-blue);
+
+    margin-left: 20px;
+}
+
+#teamSuggestions .cardSuggestions p
+{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+    color: var(--color-steel-blue);
+    margin-left: 20px;
+
+    width: 240px;
+}
+
+#teamSuggestions img
+{
+    width: 280px;
+    height: 180px;
+
+    margin: 18px 0 18px;
+}
+
+#teamSuggestions #beOrganized
+{
+    
+    background-color: var(--color-steel-blue-opacity10);
+    border-left: 2px solid var(--color-steel-blue);
+
+    margin: 18px 0;
+}
+
+#saveTime
+{
+    padding: 56px 20px 58px;
+    background-color: var(--color-brigther-gray);
+
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+}
+
+#saveTime h2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    color: var(--color-navy-blue);
+
+    width: 284px;
+    height: 72px;
+
+    margin: 0;
+}
+
+#saveTime p
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: var(--color-steel-blue);
+
+    width: 280px;
+    height: 112px;
+
+    margin: 24px 0;
+}
+
+#saveTime .btnLearn
+{
+    display: flex;
+
+    justify-content: center;
+    margin-bottom: 34px;
+
+    text-decoration: none;
+
+}
+
+#saveTime .btnLearn button
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    
+    background-color: transparent;
+    border: none;
+    color: var(--color-vibrant-dark-blue);
+}
+
+#saveTime .btnLearn button img
+{
+    margin-left: 5px;
+}
+
+#saveTime .woman
+{
+    width: 280px;
+    height: 192px;
+}
+
+#saveTime #dotted.line
+{
+    margin: 40px 0 37px;
+}
+
+#saveTime .quoteAndries p 
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    width: 280px;
+    height: 72px;
+
+    margin: 0;
+
+    color: var(--color-steel-blue);
+}
+
+#saveTime .quoteAndries h3
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+    color: var(--color-navy-blue);
+
+    margin: 20px 0 7px;
+}
+
+#saveTime .quoteAndries h4
+{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: var(--color-steel-blue);
+
+    margin: 0 0 20px;
+}
+
+#saveTime .quoteAndries img
+{
+    width: 102.85px;
+    height: 34.1px;
+}
+
+#support
+{
+    padding: 44px 0 48px;
+    background-color: var(--color-vibrant-green);
+
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+
+    color: var(--color-white);
+}
+
+#support .texts-support
+{
+    padding: 0 20px;
+}
+
+#support h2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+#support p
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+#support h3
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+#support .btnSupport
+{
+    display: flex;
+
+    justify-content: center;
+    margin-bottom: 34px;
+
+    text-decoration: none;
+
+}
+
+
+/*font-weight original é 400, mas para se aproximar ainda mais do protótipo do Figma,
+ foi alterado para 300, uma opção relativamente mais fina e que se adequa melhor ao 
+ botão do que aquele que foi exportado*/
+#support .btnSupport button
+{
+    background-color: transparent;
+    border: none;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: var(--color-white);
+}
+
+#support .btnSupport button img
+{
+    margin-left: 10px;
+}
+
+#support .supportOptions
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 16px 0 36px;
+}
+
+#support .supportOptions .cardSupport
+{
+    background-color: transparent;
+    width: 120px;
+
+    justify-content: start;
+    justify-self: start;
+    justify-i: start;
+}
+
+#support .supportOptions .cardSupport h5
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+    text-align: left;
+
+    color: var(--color-white);
+    margin: 0;
+}
+
+/*font-weight original é 400, mas para se aproximar ainda mais do protótipo do Figma,
+ foi alterado para 300, uma opção relativamente mais fina e que se adequa melhor ao 
+ botão do que aquele que foi exportado*/
+#support .supportOptions .cardSupport p
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    
+    color: var(--color-white);
+
+    text-align: left;
+}
+
+#support .supportOptions .cardSupport img
+{
+    width: 30px;
+    height: 30px;
+}
+
+#support .supportPeople
+{
+    width: 320px;
+    height: 170px;
+}
+
+
+
+
+
+
+
+.principalBaseboard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 42px 45px 45px 29px;
+}
+.cardFooter ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+.cardFooter a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 2.5;
+    color: var(--color-navy-blue);
+    text-decoration: none;
+}
+.cardFooter h4{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.mainIcon{
+    justify-self: center;
+}
+.bottomBaseboard p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: var(--color-steel-blue);
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 13px;
+}
+
+.networkIcons{
+    display: flex;
+    justify-self: center;
+    margin-top: 16px;
+    margin-bottom: 70px;
+}
+.icon button{
+    border: none;
+    background: #FFF;
+    cursor: pointer;
+
+}
+
+
+/*  justify-items: center;
+    justify-content: center;
+    justify-self: center;/*

@@ -1,0 +1,706 @@
+:root
+{
+    --color-white: #FFF;
+    --color-vibrant-green: #36B37E;
+    --color-bright-gray: #F9FBFE;
+    --color-brigther-gray: #F9FBFE; 
+    --color-navy-blue: #183B56;
+    --color-vibrant-dark-blue: #1565D8;
+    --color-steel-blue: #5A7184;
+    --color-gray: #B3BAC5;
+    --color-tracing-gray: #E3E7ED;
+    --color-dotted-line: #9DAAB6;
+    --color-light-green: rgb(229, 247, 239); /* cor não segue o padrao do figma, pois a cor puxa para o branco*/
+    --color-arrow-green: #36B37E;
+    --color-baby-blue: #00B8D9;
+    --color-vibrant-red: #E95432;
+;
+
+    
+    /*Opacidade*/
+    --color-steel-blue-opacity10: rgba(179, 186, 197, 0.1);
+    --color-vibrant-green-opacity10: rgba(54, 179, 126, 0.1);
+    --color-baby-blue-opacity10: rgba(0, 184, 217, 0.1);
+    --color-vibrant-red-opacity10: rgba(233, 84, 50, 0.1);
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.gridHeader
+{
+    margin: 0px;
+    background-color: var(--color-light-green);
+   
+}
+
+
+.topUp{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom:6px;
+}
+
+/* logo*/
+.soonImg img{
+  display: flex;
+  justify-content: space-between;
+  margin:0px;
+  padding: 50px;
+}
+
+
+.quite .phrase h1{
+    font-family: "Inter" , sans-serif;
+    color: #183B56;
+    font-weight: 300 ;
+
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+
+
+}
+.quite .card
+{
+    background-color: white;
+    color: #5A7184;
+    
+    width: 280px;
+    height: 132px;
+
+    display: flex;
+    flex-direction:column;
+   
+    border-radius: 8px;
+
+    justify-self: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.quite .card p{
+    font-family: "Open Sans";
+    height: 28px;
+    width: 127px;  
+}
+
+
+.quite .card .button-submit{
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+    background-color: var(--color-vibrant-green);
+    color: white;
+
+    height: 46px;
+    width: 248px;
+    left: 36px; 
+    border: 0px;
+    border-radius: 8px;
+
+    font-weight: 700;
+    font-size: 16px;  
+
+    /*justify-content: center;
+    justify-items: center;
+    justify-self: center;
+
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;*/
+    
+}
+
+
+.imageTop img{
+    display: flex;
+    justify-self: end;
+    align-items: end;
+    margin-bottom: 0px;
+    margin-top: 22px;
+
+    width: 280px;
+    height: 182px;
+    overflow: hidden;
+
+}
+
+.arrowGreen .arrow img{
+    display: none; 
+    width: 56px;
+    height: 56px;
+     
+}
+
+
+
+.masterBoard
+{
+    padding:  20px;
+    background-color: var(--color-white);
+
+    width: 320px;
+    justify-self: center;
+}
+
+#teamSuggestions
+{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+
+    padding: 64px 0 56px;
+}
+#teamSuggestions h2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    color: var(--color-navy-blue);
+
+    margin: 0;
+
+    width: 280px;
+    height: 108px;
+}
+
+#teamSuggestions .cardSuggestions
+{
+    width: 280px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 12px 0;
+}
+
+#teamSuggestions .cardSuggestions h3
+{
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+    color: var(--color-navy-blue);
+
+    margin-left: 20px;
+}
+
+#teamSuggestions .cardSuggestions p
+{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+    color: var(--color-steel-blue);
+    margin-left: 20px;
+
+    width: 240px;
+}
+
+#teamSuggestions img
+{
+    width: 280px;
+    height: 180px;
+
+    margin: 18px 0 18px;
+}
+
+#teamSuggestions #beOrganized
+{
+    
+    background-color: var(--color-steel-blue-opacity10);
+    border-left: 2px solid var(--color-steel-blue);
+
+    margin: 18px 0;
+}
+
+#saveTime
+{
+    padding: 56px 20px 58px;
+    background-color: var(--color-brigther-gray);
+
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+}
+
+#saveTime h2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    color: var(--color-navy-blue);
+
+    width: 284px;
+    height: 72px;
+
+    margin: 0;
+}
+
+#saveTime p
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: var(--color-steel-blue);
+
+    width: 280px;
+    height: 112px;
+
+    margin: 24px 0;
+}
+
+#saveTime .btnLearn
+{
+    display: flex;
+
+    justify-content: center;
+    margin-bottom: 34px;
+
+    text-decoration: none;
+
+}
+
+#saveTime .btnLearn button
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    
+    background-color: transparent;
+    border: none;
+    color: var(--color-vibrant-dark-blue);
+}
+
+#saveTime .btnLearn button img
+{
+    margin-left: 5px;
+}
+
+#saveTime .woman
+{
+    width: 280px;
+    height: 192px;
+}
+
+#saveTime #dotted.line
+{
+    margin: 40px 0 37px;
+}
+
+#saveTime .quoteAndries p 
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    width: 280px;
+    height: 72px;
+
+    margin: 0;
+
+    color: var(--color-steel-blue);
+}
+
+#saveTime .quoteAndries .person
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+    color: var(--color-navy-blue);
+
+    margin: 20px 0 7px;
+    height: 22px;
+}
+
+#saveTime .quoteAndries .profession
+{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: var(--color-steel-blue);
+
+    height: 20px;
+    margin: 0 0 20px;
+}
+
+#saveTime .quoteAndries img
+{
+    width: 102.85px;
+    height: 34.1px;
+}
+
+#support
+{
+    padding: 44px 0 48px;
+    background-color: var(--color-vibrant-green);
+
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+
+    color: var(--color-white);
+}
+
+#support .texts-support
+{
+    padding: 0 20px;
+}
+
+#support h2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    width: 231px;
+    justify-self: center;
+
+    margin: 0 0 16px;
+}
+
+#support p
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    margin: 0 0 34px;
+}
+
+#support h3
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    margin: 22px 0 12px;
+}
+
+#support .btnSupport
+{
+    display: flex;
+
+    justify-content: center;
+    margin-bottom: 34px;
+
+    text-decoration: none;
+
+    margin: 0 0 38px;
+}
+
+
+/*font-weight original é 400, mas para se aproximar ainda mais do protótipo do Figma,
+ foi alterado para 300, uma opção relativamente mais fina e que se adequa melhor ao 
+ botão do que aquele que foi exportado*/
+#support .btnSupport button
+{
+    background-color: transparent;
+    border: none;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: var(--color-white);
+}
+
+#support .btnSupport button img
+{
+    margin-left: 10px;
+}
+
+#support .supportOptions
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 16px 0 36px;
+    gap:  0 30px;
+}
+
+#support .supportOptions .cardSupport
+{
+    background-color: transparent;
+    width: 120px;
+}
+
+#support .supportOptions .cardSupport h3
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+    text-align: left;
+
+    color: var(--color-white);
+    margin: 0;
+}
+
+/*font-weight original é 400, mas para se aproximar ainda mais do protótipo do Figma,
+ foi alterado para 300, uma opção relativamente mais fina e que se adequa melhor ao 
+ botão do que aquele que foi exportado
+ 
+ Outra mudança que ocorreu foi por causa que os tamanhos de width e height se alterava
+ em cada item, dificultando o código geral e a assemelhação do front end com o Figma.
+ Foi feito o que pode para deixar o mais parecido possível (width: 105%), mas o item 
+ Gather não se equipara com o Figma em largura de texto.
+ */
+#support .supportOptions .cardSupport p
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+    width: 105%;
+
+    margin-top: 8px;
+    
+    color: var(--color-white);
+
+    text-align: left;
+}
+
+#support .supportOptions .cardSupport img
+{
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    margin: 14px 0;
+}
+
+#support .supportPeople
+{
+    width: 320px;
+    height: 170px;
+}
+
+.gridSponsors{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    padding: 56px 10px 14px 10px;
+}
+
+.cardSponsors button{
+    border: none;
+    background: #FFF;
+    cursor: pointer;
+}
+.cardSponsors{
+    padding-bottom: 35px;
+}
+.customerStories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stories h3{
+    color: var(--color-vibrant-dark-blue);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+.customerStories button{
+    border: none;
+    background: #FFF;
+}
+
+/*READY FOR YOUR SPONSORS*/
+
+#workflow
+{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+
+    padding: 30px 0 60px;
+}
+
+#workflow h3
+{
+    margin: 0 0 24px;
+    padding-top: 35px;
+    border-top: 1px solid var(--color-tracing-gray);
+    width: 280px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    color: var(--color-navy-blue);
+}
+
+#workflow p 
+{
+    margin: 0 0 24px;
+    width: 280px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: var(--color-steel-blue);
+}
+
+#workflow .cardWorkflow .icons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+#workflow .cardWorkflow 
+{
+    padding: 22px 28px;
+    width: 260px;
+    height: 146px;
+
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: var(--color-navy-blue);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 12px;
+
+    border-radius: 16px;
+}
+
+#workflow .cardWorkflow h4
+{
+    margin: 0 0 24px;
+}
+
+#multiOs.cardWorkflow
+{
+    background-color: var(--color-baby-blue-opacity10);
+}
+
+#compatibility.cardWorkflow 
+{
+    background-color: var(--color-vibrant-green-opacity10);
+}
+
+#integrations.cardWorkflow
+{
+    background-color: var(--color-vibrant-red-opacity10);
+}
+
+/*Termino Ready*/
+
+/*Começo get early access*/
+
+.principalBaseboard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 42px 45px 45px 29px;
+}
+.cardFooter ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+.cardFooter a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 2.5;
+    color: var(--color-navy-blue);
+    text-decoration: none;
+}
+.cardFooter h4{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.mainIcon{
+    justify-self: center;
+}
+.bottomBaseboard p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: var(--color-steel-blue);
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 13px;
+}
+
+.networkIcons{
+    display: flex;
+    justify-self: center;
+    margin-top: 16px;
+    margin-bottom: 70px;
+}
+.icon button{
+    border: none;
+    background: #FFF;
+    cursor: pointer;
+
+}

@@ -1,0 +1,109 @@
+:root
+{
+    --color-white: #FFF;
+    --color-vibrant-green: #36B37E;
+    --color-bright-gray: #F9FBFE;
+    --color-navy-blue: #183B56;
+    --color-vibrant-dark-blue: #1565D8;
+    --color-steel-blue: #5A7184;
+    --color-gray: #B3BAC5;
+
+    /*Opacidade*/
+    --color-steel-blue-opacity10: rgba(179, 186, 197, 0.1);
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.mainGrid{
+    margin:0px;
+    background-color:#36B37E ;
+    
+    
+}
+
+
+.masterboard
+{
+    padding: 0 20px;
+    color: var(--color-white);
+
+    width: 320px;
+    justify-content: center;
+}
+
+#teamSuggestions
+{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+#teamSuggestions h2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    color: var(--color-navy-blue);
+
+    width: 280px;
+    height: 108px;
+
+    margin: 64px 0 0;
+}
+
+#teamSuggestions .cardSuggestions
+{
+    width: 280px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#teamSuggestions .cardSuggestions h3
+{
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+    color: var(--color-navy-blue);
+
+    margin-left: 20px;
+}
+
+#teamSuggestions .cardSuggestions p
+{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+    color: var(--color-steel-blue);
+    margin-left: 20px;
+}
+
+#teamSuggestions img
+{
+    width: 280px;
+    height: 180px;
+
+    margin: 18px 0 42px;
+}
+
+#teamSuggestions #beOrganized
+{
+    
+    background-color: #F8F9FA;
+    border-left: 2px solid var(--color-steel-blue);
+
+    margin: 18px 0;
+}

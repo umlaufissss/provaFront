@@ -1,0 +1,199 @@
+:root
+{
+    --color-white: #FFF;
+    --color-vibrant-green: #36B37E;
+    --color-bright-gray: #F9FBFE;
+    --color-brigther-gray: #F9FBFE; 
+    --color-navy-blue: #183B56;
+    --color-vibrant-dark-blue: #1565D8;
+    --color-steel-blue: #5A7184;
+    --color-gray: #B3BAC5;
+
+    /*Opacidade*/
+    --color-steel-blue-opacity10: rgba(179, 186, 197, 0.1);
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.mainGrid{
+    font-family: "Inter" , sans-serif;
+    margin:0px;
+    background-color:#36B37E ;
+
+}
+
+.soonImg img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0px;
+}
+
+.forms{
+
+     width: 228px;
+  height: 48px;
+  border-radius: 12px;
+
+  border: 1px solid #DADADA;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 32px;
+  letter-spacing: 0px;
+
+  margin: 8px 0;
+
+  padding: 1px 15px 1px 15px;
+  color: var(--cor-escrita);
+    
+}
+
+
+.masterBoard
+{
+    padding: 0 20px;
+    background-color: var(--color-white);
+
+    width: 320px;
+    justify-content: center;
+}
+
+#teamSuggestions
+{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+
+    padding: 64px 0 56px;
+}
+#teamSuggestions h2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    color: var(--color-navy-blue);
+
+    width: 280px;
+    height: 108px;
+}
+
+#teamSuggestions .cardSuggestions
+{
+    width: 280px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 12px 0;
+}
+
+#teamSuggestions .cardSuggestions h3
+{
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+    color: var(--color-navy-blue);
+
+    margin-left: 20px;
+}
+
+#teamSuggestions .cardSuggestions p
+{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+    color: var(--color-steel-blue);
+    margin-left: 20px;
+
+    width: 240px;
+}
+
+#teamSuggestions img
+{
+    width: 280px;
+    height: 180px;
+
+    margin: 18px 0 18px;
+}
+
+#teamSuggestions #beOrganized
+{
+    
+    background-color: var(--color-steel-blue-opacity10);
+    border-left: 2px solid var(--color-steel-blue);
+
+    margin: 18px 0;
+}
+
+#saveTime
+{
+    padding: 56px 0 58px;
+
+    background-color: var(--color-brigther-gray);
+}
+
+#saveTime h2
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    color: var(--color-navy-blue);
+
+    width: 284px;
+    height: 72px;
+}
+
+#saveTime p
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    color: var(--color-steel-blue);
+
+    width: 280px;
+    height: 96px;
+}
+
+#saveTime .btnLearn button
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+
+    width: 115px;
+    height: 22px;
+    
+}
+
+.cardFooter ul li{
+    
+}
+
